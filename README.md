@@ -36,6 +36,7 @@ gsutil cp ./files/files_gold/mental-health/* gs://faq-mental-health-dialogflow
 
 ### Configurar o Agente Virtual
 - Primeiro, vamos acessar <a href="https://dialogflow.cloud.google.com/cx/">Dialogflow CX</a>
+  - Se solicitar para ativar a API do dialogflow, ative-a
 - Selecione o projeto atual (se não houver, crie um na <a href="https://console.cloud.google.com/">Console da Google Cloud </a>).
 - Clique em "Create Agent".
 - Selecione "Build your own".
@@ -52,7 +53,7 @@ O agente virtual está configurado com sucesso.
 ### Criando o Data Store
 Apesar de termos configurado o Agente virtual, ele ainda não está conectado a nenhum Data Store.
 
-Para criar, vamos:Para criar, siga os passos abaixo:
+Para criar, siga os passos abaixo:
 
 Para criar, siga os passos abaixo:
 - Vá para o <a href="https://dialogflow.cloud.google.com/cx/">Dialogflow CX</a>
@@ -69,6 +70,7 @@ Para criar, siga os passos abaixo:
 <img src="./docs/Images/vertexai.png">
 
 Você será redirecionado para o <a href="https://console.cloud.google.com/gen-app-builder">Agent builder</a>
+- Se for solicitado para ativar a API, ative-a
 - Atribua o nome **faq-covid** em "Company name" e clique em "CONTINUE".
 - Clique em **CREATE DATA STORE**
 - Selecione Cloud Storage e depois em CONTINUE
